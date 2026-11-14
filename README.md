@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 To enable a robot to grasp and manipulate textiles, the system must locate viable grasp points. Relying solely on flat 2D RGB images is fragile: fabric textures, shadows, and printed patterns easily confuse classical contour detectors.
 
@@ -22,7 +22,7 @@ The formulation by **Sun et al. (2016)** treats depth point clouds as a **contin
 
 ---
 
-## 🛠️ Implementation Overview
+## ️ Implementation Overview
 
 The codebase provides full 3D surface geometry computation and real-time 30 FPS visualization:
 
@@ -74,7 +74,7 @@ The codebase provides full 3D surface geometry computation and real-time 30 FPS 
 
 ---
 
-## 📊 Visual Evidence & Results
+## Visual Evidence & Results
 
 | Live Ridge Detection (RealSense D435) | Full Differential Geometry Pipeline |
 | :---: | :---: |
@@ -86,7 +86,7 @@ The codebase provides full 3D surface geometry computation and real-time 30 FPS 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 sun2016_active_vision/
@@ -103,7 +103,7 @@ sun2016_active_vision/
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Requirements & Dependencies
 ```bash
@@ -128,6 +128,6 @@ Executes an embedded unit test on synthetic wrinkled surfaces and verifies zero 
 
 ---
 
-## 📚 References
+## References
 * Sun, L., et al. (2016). *Robotic Clothes Manipulation via Active Vision & Differential Geometry*.
 * Koenderink, J. J., & van Doorn, A. J. (1992). *Surface shape and curvature scales*. Image and Vision Computing.
